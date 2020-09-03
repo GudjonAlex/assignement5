@@ -1,3 +1,6 @@
+#1. Taka við int breytu frá notenda
+#2. Safna hæstu tölu þangað til neikvæð tala er sett inn
+#3. Eftir að neikvæð tala er sett inn, prenta hæstu tölu sem kom fram
 
 num_int = int(input("Input a number: "))    # Do not change this line
 
@@ -11,7 +14,6 @@ while num_int >= 0:
         temp_num_int = temp_num_int
 
     num_int = int(input("Input a number: "))
-    print(highest_num_int)
 
 max_int = highest_num_int
 
